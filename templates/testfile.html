@@ -1,0 +1,9 @@
+<html><head><title>Questions</title></head>
+<body>
+<h1>Questions</h1>
+<ul>
+{% for Question in questions_list %}
+<li>{{  Question.question_txt }}</li>
+{% endfor %}
+</ul>
+</body></html>
